@@ -59,7 +59,7 @@ const Service = () => {
               animate={leftInView ? "visible" : "hidden"}
               className='w-full h-[1px] bg-neutral-800'></motion.div>
             <Image
-              src={'/icon/icon-pc.png'} height={32} width={32} alt={data.imgtittle} />
+              src={'/icon/Icon-pc.png'} height={32} width={32} alt={data.imgtittle} />
             <div className='text-xl md:text-2xl font-semibold text-base-white'>{data.title}</div>
             <div className='text-md md:text-lg font-regular text-neutral-400'>{data.desc}</div>
           </div>

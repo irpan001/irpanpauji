@@ -57,7 +57,7 @@ const Navbar = () => {
         {/* ketika SheetTrigger ini active bagian ini hidden */}
         <SheetTrigger asChild>
           <Image
-            src="/icon/icon-list.png"
+            src="/icon/Icon-list.png"
             alt="icon-list"
             width={24}
             height={24}

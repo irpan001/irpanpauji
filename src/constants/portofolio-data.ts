@@ -24,7 +24,7 @@ export const PortofolioData: Portofolio[] = [
   {
     id: '03',
     name: 'Cooperation Agreement Information System',
-    image: '/images/SI pks.jpg',
+    image: '/images/SI PKS.jpg',
     link: '',
     description: 'Developed a PKS (Partnership Agreement System) using PHP and MySQL with automated email reminders for contract renewals three months before expiration.Helped the organization reduce missed contract deadlines and improve operational compliance. (Project details are confidential under company policy)',
   },
