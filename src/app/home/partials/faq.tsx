@@ -40,10 +40,10 @@ const Faq = () => {
             <div className='flex flex-col gap-6'>
               <div className='flex flex-row items-start justify-center gap-3'>
                 <Image
-                  src='/icon/icon-bintang.png'
+                  src={'/icon/Icon-bintang.png'}
+                  alt='Icon-bintang'
                   width={32}
                   height={32}
-                  alt='start'
                 />
                 <h2
                   className='text-2xl font-bold text-base-white'>
