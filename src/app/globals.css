@@ -1,5 +1,57 @@
 @import "tailwindcss";
 
+@import "tailwindcss";
+
+@theme {
+  /* Neutral / Gray */
+  --color-gray-25:  #FDFDFD;
+  --color-gray-50:  #FAFAFA;
+  --color-gray-100: #F5F5F5;
+  --color-gray-200: #E9EAEB;
+  --color-gray-300: #D5D7DA;
+  --color-gray-400: #A4A7AE;
+  --color-gray-500: #717680;
+  --color-gray-600: #535862;
+  --color-gray-700: #414651;
+  --color-gray-800: #252B37;
+  --color-gray-900: #181D27;
+  --color-gray-950: #0A0D12;
+
+  /* Primary */
+  --color-primary-100: #DAFFAB;
+  --color-primary-200: #91FF02;
+  --color-primary-300: #3A6601;
+  --color-primary-400: #1D3300;
+
+  /* Base */
+  --color-base-white: #FFFFFF;
+  --color-base-black: #000000;
+
+  /* Semantic Mapping (supaya gampang dipakai di komponen) */
+  --color-bg: var(--color-gray-25);
+  --color-surface: var(--color-base-white);
+  --color-text: var(--color-gray-900);
+  --color-muted: var(--color-gray-600);
+  --color-border: var(--color-gray-200);
+  --color-primary: var(--color-primary-200);
+  --color-primary-hover: var(--color-primary-300);
+  --color-primary-contrast: var(--color-base-black);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: var(--color-gray-950);
+    --color-surface: #0F131A;
+    --color-text: var(--color-gray-25);
+    --color-muted: var(--color-gray-400);
+    --color-border: var(--color-gray-800);
+    --color-primary: var(--color-primary-200);
+    --color-primary-hover: var(--color-primary-100);
+    --color-primary-contrast: var(--color-gray-950);
+  }
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -8,7 +60,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-red-hat); /* Red Hat Display aktif */
   --font-mono: var(--font-geist-mono);
 }
 
@@ -20,7 +72,6 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--color-base-black);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
