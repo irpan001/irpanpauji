@@ -35,7 +35,7 @@ const Service = () => {
         className='flex flex-col md:flex-row justify-start lg:justify-between items-center gap-4'>
         <div
           className='flex flex-col justify-start gap-2 w-full md:w-[509px]'>
-          <div className='text-md md:text-lg font-medium text-primary-200'>Services</div>
+          <div className='text-md md:text-lg font-medium text-primary-200'>Services 1</div>
           <div className='text-md md:text-2xl font-extrabold text-base-white'>MY SERVICE EXPERTISE</div>
         </div>
         <div
